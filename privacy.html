@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>볼케이노업로더 개인정보처리방침</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700;900&display=swap">
+<style>
+/* 한 단 문서 · 기존 볼케이노업로더 약관 페이지와 같은 어두운 판 */
+:root{--bg:#0B0E17;--card:#141926;--line:#242C3F;--fg:#E9EDF6;--mid:#9AA4BF;--dim:#5F6982;--mint:#00D68F;color-scheme:dark}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--fg);font-family:"Gothic A1",-apple-system,"Malgun Gothic",sans-serif;line-height:1.8;
+  padding-block:48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.w{max-width:760px;margin:0 auto}
+a{color:var(--mint)}
+h1{font-size:30px;font-weight:900;margin-bottom:8px;letter-spacing:-.02em;text-wrap:balance}
+h2{font-size:19px;font-weight:800;margin:34px 0 10px}
+p,li{color:var(--mid);font-size:15px}
+ul{margin:10px 0 0 20px}li{margin-bottom:6px}
+.date{color:var(--dim);font-size:13px;font-family:ui-monospace,Consolas,monospace;margin-bottom:34px}
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;margin-top:12px;font-size:14px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);color:var(--mid)}
+th{color:var(--fg);font-weight:700}
+code{color:var(--mint);font-size:13.5px}
+.en{margin-top:40px;padding-top:26px;border-top:1px solid var(--line)}
+.en p,.en li{font-size:14px}
+</style>
+</head>
+<body>
+<div class="w">
+<h1>개인정보처리방침</h1>
+<p>볼케이노업로더 · 틱톡 연동</p>
+<p class="date">최종 수정 2026년 10월 17일</p>
+
+<h2>1. 요청하는 틱톡 권한</h2>
+<div class="tbl"><table>
+<tr><th>범위</th><th>쓰는 이유</th></tr>
+<tr><td><code>user.info.basic</code></td><td>어느 계정에 올리는지 확인하기 위해</td></tr>
+<tr><td><code>video.upload</code></td><td>영상을 계정 주인의 받은 편지함(초안)으로 보내기 위해</td></tr>
+<tr><td><code>video.publish</code></td><td>계정 주인이 허락한 영상을 게시하기 위해</td></tr>
+</table></div>
+
+<h2>2. 다루는 정보</h2>
+<ul>
+<li>계정 식별 정보: open_id, 닉네임, 프로필 이미지 주소</li>
+<li>게시 처리 정보: 게시 ID와 처리 상태</li>
+<li>접근 토큰: 틱톡이 발급한 액세스·리프레시 토큰</li>
+</ul>
+<p>비밀번호, 이메일, 결제 정보, 시청자 정보는 다루지 않습니다.</p>
+
+<h2>3. 어디에 저장하나</h2>
+<p>운영자의 컴퓨터에만 저장됩니다. 별도 서버가 없고 외부로 전송하지 않습니다.</p>
+
+<h2>4. 어디에 쓰나</h2>
+<ul>
+<li>운영자가 직접 만든 영상을 운영자 본인의 틱톡 계정에 올리는 데</li>
+<li>올린 영상의 처리 결과를 확인하는 데</li>
+</ul>
+
+<h2>5. 제3자 제공</h2>
+<p>제공하지 않습니다. 판매, 공유, 광고 목적의 활용이 없습니다. 데이터는 틱톡 API와 운영자의 컴퓨터 사이에서만 오갑니다.</p>
+
+<h2>6. 보관 기간과 삭제</h2>
+<ul>
+<li>틱톡 앱의 설정 → 보안 → 앱 관리에서 연결을 끊으면 즉시 접근이 끊깁니다.</li>
+<li>연결을 끊거나 사용을 마치면 저장된 토큰과 정보를 지웁니다.</li>
+</ul>
+
+<h2>7. 문의</h2>
+<p>pjh8370@gmail.com</p>
+
+<div class="en">
+<h2>English Summary</h2>
+<p>Volcano Uploader is a personal desktop tool that uploads short videos created by the operator to the operator's own TikTok account. It requests user.info.basic, video.upload and video.publish only. Tokens and account identifiers are stored only on the operator's computer, are never sold or shared with third parties, and are deleted when access is revoked.</p>
+</div>
+</div>
+</body>
+</html>
